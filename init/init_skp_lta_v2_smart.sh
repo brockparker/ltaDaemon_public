@@ -4,10 +4,10 @@ if [ -n "$voltagescript" ]
 then
     source $voltagescript
 else
-    source voltage_skp_lta_v2.sh
+    source voltage_skp_lta_v2_microchip.sh
 fi
 lta nomulti
-lta sseq sequencers/sequencer.xml
+lta sseq sequencers/sequencer_microchip.xml
 lta set sinit 30
 lta set pinit 0
 lta set ssamp 200

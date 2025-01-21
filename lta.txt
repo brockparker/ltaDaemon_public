@@ -1,0 +1,19 @@
+new file path: ./out_
+new temp dir: .
+NROW = 700
+NCOL = 400
+NSAMP = 1
+CCDNROW = 1248
+CCDNCOL = 724
+Read done
+Image translated to fits
+Transfer done
+Read done
+Image translated to fits
+Read done
+Image translated to fits
+Read done
+Calibration DONE.
+Read done
+Image translated to fits
+Stop: LTA simulator.
