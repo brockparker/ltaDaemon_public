@@ -1,0 +1,41 @@
+
+
+
+
+
+arguments: ./readOldDatFiles.exe 30 700 100 out_2_reprocessed out_2_
+Current dir: /media/brockparker/Windows/Users/Brock/Documents/Git/ltaDaemon_public
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2025-01-15 11:55:25.922 (   0.000s) [readOldDatFiles ]             loguru.cpp:756   INFO| Logging to 'readOldDatFiles.log', mode: 'a', verbosity: 9
+2025-01-15 11:55:25.922 (   0.000s) [readOldDatFiles ]    readOldDatFiles.cpp:26    INFO| 30 nsamp 700 cols 100 rows
+2025-01-15 11:55:25.922 (   0.000s) [readOldDatFiles ]    readOldDatFiles.cpp:34    INFO| found out_2_0.dat
+2025-01-15 11:55:25.922 (   0.000s) [readOldDatFiles ]    readOldDatFiles.cpp:34    INFO| found out_2_1.dat
+2025-01-15 11:55:25.922 (   0.000s) [readOldDatFiles ]     dataConversion.cpp:613   INFO| number of columns = 21000
+2025-01-15 11:55:25.922 (   0.000s) [readOldDatFiles ]     dataConversion.cpp:618      1| writing 100000 pixels at a time
+2025-01-15 11:55:25.922 (   0.000s) [readOldDatFiles ]     dataConversion.cpp:241   INFO| creating empty image file out_2_reprocessed.fits with 4 HDUs, 21000 cols, 100 rows
+2025-01-15 11:55:25.923 (   0.000s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum -1: writing 3 vars
+2025-01-15 11:55:25.923 (   0.001s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum -1: writing 3 vars
+2025-01-15 11:55:25.923 (   0.001s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum -1: writing 3 vars
+2025-01-15 11:55:25.923 (   0.001s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum -1: writing 3 vars
+2025-01-15 11:55:25.955 (   0.033s) [readOldDatFiles ]     dataConversion.cpp:632   INFO| initialized FITS file
+2025-01-15 11:55:25.955 (   0.033s) [readOldDatFiles ]     dataConversion.cpp:52       1| Processing files in the following order: 
+2025-01-15 11:55:25.955 (   0.033s) [readOldDatFiles ]     dataConversion.cpp:54       1| out_2_0.dat
+2025-01-15 11:55:25.955 (   0.033s) [readOldDatFiles ]     dataConversion.cpp:54       1| out_2_1.dat
+2025-01-15 11:55:25.955 (   0.033s) [readOldDatFiles ]     dataConversion.cpp:92    INFO| translating file: out_2_0.dat, adc count up to here = 0
+2025-01-15 11:55:26.023 (   0.101s) [readOldDatFiles ]     dataConversion.cpp:92    INFO| translating file: out_2_1.dat, adc count up to here = 6241500
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum 1: writing 3 vars
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:371   INFO| hdunum 1: chID 12, wrote 2100000 pixels to FITS
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum 2: writing 3 vars
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:371   INFO| hdunum 2: chID 13, wrote 2100000 pixels to FITS
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum 3: writing 3 vars
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:371   INFO| hdunum 3: chID 14, wrote 2100000 pixels to FITS
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:337      1| hdunum 4: writing 3 vars
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:371   INFO| hdunum 4: chID 15, wrote 2100000 pixels to FITS
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:326   INFO| closing file
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:695   INFO| data good: no missing data and all HDUs got the correct number of pixels
+2025-01-15 11:55:26.046 (   0.124s) [readOldDatFiles ]     dataConversion.cpp:730   INFO| wrote uncompressed image
+2025-01-15 11:55:26.062 (   0.140s) [readOldDatFiles ]     dataConversion.cpp:741   INFO| wrote compressed image
+2025-01-15 11:55:26.062 (   0.140s) [readOldDatFiles ]     dataConversion.cpp:743   INFO| deleting uncompressed image: out_2_reprocessed.fits
+2025-01-15 11:55:26.069 (   0.147s) [readOldDatFiles ]     dataConversion.cpp:756   INFO| image done! number of adc data = 8400000
+2025-01-15 11:55:26.069 (   0.147s) [readOldDatFiles ]             loguru.cpp:472   INFO| atexit
